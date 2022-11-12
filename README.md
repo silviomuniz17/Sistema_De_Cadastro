@@ -10,6 +10,7 @@ node app.js
 ```
 Passo a Passo
 1 > git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git
+2 > git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git
 
 ```
 ```
@@ -32,4 +33,12 @@ C) Clocar a pasta do projeto
 1) abrir o CMD e ir até a pasta que deseja salvar usando o cd 
 2) Depois abrir o site onde está o projeto no github e copiar a url 
 3) Voltando para o CMD (já na pasta desejada) deve utilizar o comando = git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git (git clonar e o caminho)
+Obs.: Se você clocar em sima da pasta já baixada você apaga tudo, então é apenas para a primeira vez
+```
+```
+D) Atualizar a pasta do projeto
+
+1) abrir o CMD e ir até a pasta que está salvo o projeto 
+2) Depois abrir o site onde está o projeto no github e copiar a url 
+3) Voltando para o CMD (já na pasta desejada) deve utilizar o comando = git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git (git atualiza e o caminho)
 ```
