@@ -11,6 +11,8 @@ node app.js
 Passo a Passo
 1 > git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git
 2 > git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git
+3 > git status
+4 > git commit -m "Descrição_Do_Que_Foi_Feito"
 
 ```
 ```
@@ -41,4 +43,23 @@ D) Atualizar a pasta do projeto
 1) abrir o CMD e ir até a pasta que está salvo o projeto 
 2) Depois abrir o site onde está o projeto no github e copiar a url 
 3) Voltando para o CMD (já na pasta desejada) deve utilizar o comando = git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git (git atualiza e o caminho)
+```
+```
+E) Verificar como está o status do projeto
+
+1) abrir o CMD e ir até a pasta que está salvo o projeto
+2) Já na pasta desejada deve utilizar o comando = git status
+3) Com isso vai mostrar os aquivo em vermelho que está apenas na sua maquina. Em Verdade arquivos que foi commitados
+```
+```
+F) Comitar o projeto na maquina local
+
+1) abrir o CMD e ir até a pasta que está salvo o projeto
+2) Já na pasta desejada deve utilizar o comando = git commit -m "Descrição_Do_Que_Foi_Feito"
+```
+```
+G) Enviando o projeto da maquina local para github
+
+1) abrir o CMD e ir até a pasta que está salvo o projeto
+2) Já na pasta desejada deve utilizar o comando = git push https://github.com/silviomuniz17/Sistema_De_Cadastro.git main 
 ```
