@@ -17,6 +17,11 @@ Passo a Passo
 
 ```
 ```
+Obs.:
+git log --oneline = Verificar todas alterações feitas (Historicos)
+```
+
+```
 A) Para dara acesso para outra pessoa mudar ou alterar meu codigo
 
 1) Abrir Github na web > configurações (Settings) > Colaboradores Primeiro no menu lateral (Collabortors) >  Botão verdade adicionar pessoa (add people).
