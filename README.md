@@ -13,6 +13,7 @@ Passo a Passo
 2 > git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git
 3 > git status
 4 > git commit -m "Descrição_Do_Que_Foi_Feito"
+5 > git push origin main
 
 ```
 ```
@@ -61,5 +62,8 @@ F) Comitar o projeto na maquina local
 G) Enviando o projeto da maquina local para github
 
 1) abrir o CMD e ir até a pasta que está salvo o projeto
-2) Já na pasta desejada deve utilizar o comando = git push https://github.com/silviomuniz17/Sistema_De_Cadastro.git main 
+2) Para criar um nome para sua url deve digitar = git remote add origin https://github.com/silviomuniz17/Sistema_De_Cadastro.git 
+3) Para ver caminho remotos salvos = git remote -v
+4) Para remover um caminho que existe = git remote rm nomedocaminho
+5) Para enviar para o github = git push origin main
 ```
