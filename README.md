@@ -71,9 +71,7 @@ H) Verificar o historico
 
 git log --oneline = Verificar todas alterações feitas (Historicos) * para sair precione q
 git log -p = virificar todas alterções feitas com mais informaçoes (historico) * para sair precione q
-
 ```
-
 ```
 I) Restaurar versão de algum commit
 
@@ -86,9 +84,16 @@ git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a .
 Obs.: (877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a codigo so commite)
 ``` 
 ```
-J) Criar Branch (Ramificações)
+J) Branch (Ramificações) 
 
 1) git checkout -b desenvolvimento = criando um galho com nome de desenvolvimento
-2) git switch main = ir para o branch principal(main)
+2) git switch desenvolvimento = ir para o branch desenvolvimento
+3) git branch = ver qual ramificação que estou e quais tem
+4) git add .
+5) git commit -m "descrição"
+6) git push origin desenvolvimento
+7) git switch main = ir para o branch principal
+8) git marge desenvolvimento = jogando tudo que está no ramo desenvolvimento para a principal
+
 ```
 
