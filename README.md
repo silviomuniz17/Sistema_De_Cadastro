@@ -74,7 +74,7 @@ G) Enviando o projeto da maquina local para github
 5) Para enviar para o github = git push origin main
 ```
 ```
-Restaurar versão de algum commite
+Restaurar versão de algum commit
 
 Existe duas formas
 1) Se for restaura apenas um determinado arquivo 
