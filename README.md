@@ -19,6 +19,7 @@ Passo a Passo
 ```
 Obs.:
 git log --oneline = Verificar todas alterações feitas (Historicos) * para sair precione q
+git log -p = virificar todas alterções feitas com mais informaçoes (historico) * para sair precione q
 
 ```
 
@@ -82,5 +83,5 @@ git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a index.html
 2) Se for restaurar o projeto inteiro
 git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a .
 
-Obs.: (87eb6e codigo so commite)
+Obs.: (877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a codigo so commite)
 ``` 
