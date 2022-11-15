@@ -78,9 +78,9 @@ Restaurar versão de algum commit
 
 Existe duas formas
 1) Se for restaura apenas um determinado arquivo 
-git restore --source 87eb6e index.html 
+git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a index.html 
 2) Se for restaurar o projeto inteiro
-git restore --source 87eb6e .
+git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a .
 
 Obs.: (87eb6e codigo so commite)
 ``` 
