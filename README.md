@@ -20,7 +20,6 @@ Passo a Passo
 Obs.:
 git log --oneline = Verificar todas alterações feitas (Historicos)
 
-teste apagar
 ```
 
 ```
