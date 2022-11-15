@@ -94,5 +94,4 @@ J) Branch (Ramificações)
 6) git push origin desenvolvimento
 7) git switch main = ir para o branch principal
 8) git merge desenvolvimento = jogando tudo que está no ramo desenvolvimento para a principal
-
 ```
