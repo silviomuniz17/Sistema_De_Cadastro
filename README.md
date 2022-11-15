@@ -9,20 +9,12 @@ node app.js
 ```
 ```
 Passo a Passo
-1 > git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git
-2 > git pull origin main
-3 > git status
-4 > git commit -m "Descrição_Do_Que_Foi_Feito"
-5 > git push origin main
-
+1 (C) > git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git
+2 (D) > git pull origin main
+3 (E) > git status
+4 (F) > git commit -m "Descrição_Do_Que_Foi_Feito"
+5 (G) > git push origin main
 ```
-```
-Obs.:
-git log --oneline = Verificar todas alterações feitas (Historicos) * para sair precione q
-git log -p = virificar todas alterções feitas com mais informaçoes (historico) * para sair precione q
-
-```
-
 ```
 A) Para dara acesso para outra pessoa mudar ou alterar meu codigo
 
@@ -75,7 +67,13 @@ G) Enviando o projeto da maquina local para github
 5) Para enviar para o github = git push origin main
 ```
 ```
-Restaurar versão de algum commit
+H) Verificar o historico 
+
+git log --oneline = Verificar todas alterações feitas (Historicos) * para sair precione q
+git log -p = virificar todas alterções feitas com mais informaçoes (historico) * para sair precione q
+```
+```
+I) Restaurar versão de algum commit
 
 Existe duas formas
 1) Se for restaura apenas um determinado arquivo 
@@ -85,3 +83,16 @@ git restore --source 877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a .
 
 Obs.: (877eb6e8cc4f2dd9e7952ba1dbc01765399ac67a codigo so commite)
 ``` 
+```
+J) Branch (Ramificações) 
+
+1) git checkout -b desenvolvimento = criando um galho com nome de desenvolvimento
+2) git switch desenvolvimento = ir para o branch desenvolvimento
+3) git branch = ver qual ramificação que estou e quais tem
+4) git add .
+5) git commit -m "descrição"
+6) git push origin desenvolvimento
+7) git switch main = ir para o branch principal
+8) git marge desenvolvimento = jogando tudo que está no ramo desenvolvimento para a principal
+
+```
