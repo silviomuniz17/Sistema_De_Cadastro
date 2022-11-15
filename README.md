@@ -10,7 +10,7 @@ node app.js
 ```
 Passo a Passo
 1 > git clone https://github.com/silviomuniz17/Sistema_De_Cadastro.git
-2 > git pull https://github.com/silviomuniz17/Sistema_De_Cadastro.git
+2 > git pull origin main
 3 > git status
 4 > git commit -m "Descrição_Do_Que_Foi_Feito"
 5 > git push origin main
@@ -18,7 +18,7 @@ Passo a Passo
 ```
 ```
 Obs.:
-git log --oneline = Verificar todas alterações feitas (Historicos)
+git log --oneline = Verificar todas alterações feitas (Historicos) * para sair precione q
 
 ```
 
@@ -73,3 +73,14 @@ G) Enviando o projeto da maquina local para github
 4) Para remover um caminho que existe = git remote rm nomedocaminho
 5) Para enviar para o github = git push origin main
 ```
+```
+Restaurar versão de algum commite
+
+Existe duas formas
+1) Se for restaura apenas um determinado arquivo 
+git restore --source 87eb6e index.html 
+2) Se for restaurar o projeto inteiro
+git restore --source 87eb6e .
+
+Obs.: (87eb6e codigo so commite)
+``` 
